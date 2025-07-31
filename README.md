@@ -10,7 +10,7 @@
 | Scroll | Description | Link |
 |-------|-------------|------|
 | 🧠 `#01` | What is Cybersecurity? | [📖 Read](./notes/intro-to-cybersecurity.md) |
-| 🌐 `#02` | Networking Basics | _Coming soon_ |
+| 🌐 `#02` | Networking Basics | [📖 Read](./notes/networking-fundamentals) |
 | 🛡️ `#03` | Threat Types | _Coming soon_ |
 | 🔍 `#04` | Malware Analysis | _Coming soon_ |
 | 🧬 `#05` | Hacker Types | _Coming soon_ |
