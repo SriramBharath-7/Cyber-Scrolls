@@ -1,4 +1,4 @@
-# 🌐 Introduction to Cyber Security — Obsidian Notes
+# 🌐 Introduction to Cyber Security
 
 ## 📌 What is Cyber Security?
 
