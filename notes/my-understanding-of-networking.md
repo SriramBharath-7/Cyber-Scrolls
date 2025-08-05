@@ -92,4 +92,34 @@ ipconfig
 - Fiber Optic (Physical cables)
 
 
+# 📦 OSI Model – Explained with Parcel Delivery Analogy
+
+## What is the OSI Model?
+A 7-layer model that explains how data travels through a network.
+
+## Analogy: Sending a Parcel
+
+| OSI Layer | Function | Parcel Analogy |
+|-----------|----------|----------------|
+| 7. Application | User Interface | You write the letter |
+| 6. Presentation | Formatting & Encryption | You encrypt the letter |
+| 5. Session | Communication Setup | You call your friend, “I'm sending this” |
+| 4. Transport | Delivery method & ports | You choose FedEx or regular post |
+| 3. Network | Routing (IP Address) | You write the city + pin code |
+| 2. Data Link | Local addressing (MAC) | You add building and flat number |
+| 1. Physical | Actual transmission | Truck delivers the box physically |
+
+## Mnemonic:
+- Top to Bottom: **All People Seem To Need Data Processing**
+- Bottom to Top: **Please Do Not Throw Sausage Pizza Away**
+
+## Why It Matters in Cybersecurity:
+- Knowing layers helps target/defend specific attack types
+- Different tools work at different OSI levels:
+  - Wireshark → Layers 2–4
+  - nmap → Layer 3–4
+  - Burp Suite → Layer 7
+
+
+
 
