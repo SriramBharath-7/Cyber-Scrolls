@@ -59,3 +59,37 @@ This marks the first steps in my journey to become an **Ethical Hacker & Cyberse
 ### Windows:
 ```bash
 ipconfig
+```
+
+
+### 🌐 Visual of the Path:
+```plaintext
+
+📱 (Your Phone)
+   ↓ (Radio Waves)
+📡 Cell Tower
+   ↓ (Fiber Optic)
+🏢 ISP Core (Jio, Airtel)
+   ↓ (Global Internet Backbone)
+🖥️ Netflix Server
+   ↓ (Back again)
+📡 Tower
+   ↓ (Radio Waves)
+📱 (You get the movie!)
+```
+
+
+# How Mobile Data Works
+
+- 📱 Your phone sends data via **radio waves** to a nearby cell tower
+- 🛰️ Tower sends it through **fiber optic cables** to your **ISP (Jio, Airtel)**
+- 🌐 ISP routes the data to services like Netflix, Google, etc.
+- 🖥️ Servers respond with data (videos, webpages)
+- 🔄 The response travels the same route back to your device
+
+✅ It's always a mix of:
+- Radio Waves (Wireless)
+- Fiber Optic (Physical cables)
+
+
+
