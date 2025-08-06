@@ -121,5 +121,65 @@ A 7-layer model that explains how data travels through a network.
   - Burp Suite → Layer 7
 
 
+# 🕸️ Spider-Man Networking Example (How Web Works in Real Life)
+
+## Scenario:
+You're on JioFiber Wi-Fi and open `netflix.com` to watch Spider-Man.
+
+---
+
+## 🧠 Step-by-Step Networking Breakdown:
+
+1. **DNS Lookup**
+   - Browser checks cache
+   - If not found, queries DNS servers:
+     - Root → TLD → Authoritative → IP returned (e.g. `52.26.14.9`)
+   - Protocol: UDP
+   - Layers: 7 → 1
+
+2. **TCP 3-Way Handshake**
+   - Your device sends SYN to Netflix
+   - Netflix replies SYN-ACK
+   - You reply ACK
+   - Protocol: TCP
+   - Layer: 4
+
+3. **HTTPS Request**
+   - Secure request sent to Netflix server
+   - Passes through WAF (Web Application Firewall)
+   - Netflix sends back homepage HTML
+
+4. **Watching Spider-Man**
+   - Movie is broken into segments → packets → frames
+   - Each frame:
+     - Layer 2: MAC header
+     - Layer 3: IP header
+     - Layer 4: TCP header
+     - Layer 7: Encrypted video chunks
+   - Sent as radio waves over Wi-Fi
+   - Received and reassembled to display video
+
+---
+
+## 🧱 OSI Model Used:
+1. **Physical** → Wi-Fi radio signals
+2. **Data Link** → MAC addresses, frames
+3. **Network** → IP routing
+4. **Transport** → TCP reliability
+5. **Session** → Communication session
+6. **Presentation** → TLS/SSL encryption
+7. **Application** → DNS, HTTP, Netflix App
+
+---
+
+## 🧵 Real Protocols Involved:
+- **DNS** → UDP
+- **TCP** → Reliable data delivery
+- **IP** → Routing
+- **HTTPS** → Secure web
+- **MAC** → Local delivery
+
+
+
 
 
