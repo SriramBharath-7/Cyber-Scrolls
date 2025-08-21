@@ -1,27 +1,25 @@
-# 🧠 Cyber Scrolls — My Cybersecurity Vault
+# 📝 Obsidian Notes - Cyber Security  
 
-> A gamified, scroll-style journey to becoming a Cyber Security Expert 🥷  
-> Follow the path, unlock scrolls, master the craft.
+Welcome to my **Obsidian Notes Repository**!  
+This repo is where I organize everything I’m learning in **Cyber Security, Linux, Bug Bounty, HackTheBox, and more**.  
+
+## 📂 Repository Structure  
+
+| Section | Description | Link |
+|---------|-------------|------|
+| 🐞 Bug Bounty | Notes, methods, and resources for Bug Bounty hunting. | [🐞 Bug Bounty](./Cyber%20Security/Bug%20Bounty) |
+| ⚡ Hack The Box | HTB writeups, challenges, and practice notes. | [⚡ Hack The Box](./Cyber%20Security/Hack%20The%20Box) |
+| 🐧 Linux | Essential Linux commands and OS knowledge for security. | [🐧 Linux](./Cyber%20Security/Linux) |
+| 📘 Notes | General Cyber Security notes and theory. | [📘 Notes](./Cyber%20Security/Notes) |
+| 🔧 Tools | Security tools, cheat sheets, and usage guides. | [🔧 Tools](./Cyber%20Security/Tools) |
+| 🎯 Try Hack Me | THM labs, walkthroughs, and concepts learned. | [🎯 Try Hack Me](./Cyber%20Security/Try%20Hack%20Me) |
 
 ---
 
-## 📜 Unlocked Scrolls
+## 🚀 Usage  
 
-| Scroll | Description | Link |
-|-------|-------------|------|
-| 🧠 `#01` | What is Cybersecurity? | [📖 Read](./notes/intro-to-cybersecurity.md) |
-| 🌐 `#02` | Networking Basics | [📖 Read](./notes/networking-fundamentals.md) |
-| 🛡️ `#03` | Threat Types | _Coming soon_ |
-| 🔍 `#04` | Malware Analysis | _Coming soon_ |
-| 🧬 `#05` | Hacker Types | _Coming soon_ |
-
----
-
-## 🎮 Progress Tracker
-
-```diff
-+ [x] #01: Intro to Cybersecurity
-+ [ ] #02: Networking Basics
-- [ ] #03: Threats & Attacks
-- [ ] #04: Malware Types
-- [ ] #05: Hacker Psychology
+- Clone the repo  
+  
+```bash
+git clone https://github.com/your-username/obsidian-notes.git
+```
